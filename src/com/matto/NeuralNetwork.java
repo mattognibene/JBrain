@@ -1,3 +1,5 @@
+package com.matto;
+
 import org.ejml.simple.SimpleMatrix;
 
 import java.util.ArrayList;
@@ -47,9 +49,7 @@ public class NeuralNetwork {
             return addLayer(data, 0);
         }
 
-        public Builder
-
-        setActivation(Function<Double, Double> activation) {
+        public Builder setActivation(Function<Double, Double> activation) {
             this.activation = activation;
             return this;
         }

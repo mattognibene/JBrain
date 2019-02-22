@@ -1,3 +1,6 @@
+package com.matto;
+
+import com.matto.NeuralNetwork;
 import org.junit.Before;
 import org.junit.Test;
 
